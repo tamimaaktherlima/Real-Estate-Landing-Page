@@ -31,6 +31,17 @@
             font-family: "Manrope", sans-serif;
         }
     </style>
+    <script>
+        module.exports = {
+            theme: {
+                extend: {
+                    backgroundImage: {
+                        'footer-pattern': "url('assets/bg.jpg')",
+                    }
+                }
+            }
+        }
+    </script>
 
 </head>
 
@@ -250,11 +261,12 @@
                 </div>
 
                 <!-- Card Container -->
-                <div class="grid grid-cols-1 md:grid-rows-2 md:grid-cols-12 gap-6">
+                <div class="grid grid-cols-1 md:grid-rows-2 md:grid-cols-12 gap-6 mt-8">
                     <!-- Card 1 -->
                     <div class="border border-[#E9E9E9] rounded-lg shadow-sm grid md:col-span-8">
                         <div class="hero-content flex-col lg:flex-row">
-                            <img alt="Tailwind CSS hero component" src="assets/img1.png" class="max-w-sm rounded-lg w-full h-full object-cover " />
+                            <img alt="Tailwind CSS hero component" src="assets/img1.png"
+                                class="max-w-sm rounded-lg w-full h-full object-cover " />
                             <div>
                                 <h1 class="text-2xl font-bold">Commercial</h1>
                                 <p class="py-2 text-[#494949]">
@@ -263,8 +275,7 @@
                                 </p>
                                 <div class="flex gap-3">
                                     <button class="font-extrabold text-lg">View Details</button>
-                                    <i
-                                        class="fa-solid fa-arrow-right-long bg-[#ABEF5F]  rounded-full -rotate-45 p-1">
+                                    <i class="fa-solid fa-arrow-right-long bg-[#ABEF5F]  rounded-full -rotate-45 p-1">
                                     </i>
                                 </div>
                             </div>
@@ -272,23 +283,29 @@
                     </div>
 
                     <!-- Card 2 -->
-                    <div class="border border-[#E9E9E9] rounded-lg shadow-sm md:col-span-4 flex  justify-center items-center">
+                    <div
+                        class="border border-[#E9E9E9] rounded-lg shadow-sm md:col-span-4 flex  justify-center items-center">
                         <div>
-                            <img alt="Tailwind CSS hero component" src="assets/img2.png" class=" rounded-lg w-full h-full object-cover " />
+                            <img alt="Tailwind CSS hero component" src="assets/img2.png"
+                                class=" rounded-lg w-full h-full object-cover " />
                         </div>
                     </div>
 
                     <!-- Card 3 -->
-                    <div class="border border-[#E9E9E9] rounded-lg shadow-sm md:col-span-3 flex  justify-center items-center">
+                    <div
+                        class="border border-[#E9E9E9] rounded-lg shadow-sm md:col-span-3 flex  justify-center items-center">
                         <div>
-                            <img alt="Tailwind CSS hero component" src="assets/img3.png" class="max-w-sm rounded-lg w-full h-full object-cover" />
+                            <img alt="Tailwind CSS hero component" src="assets/img3.png"
+                                class="max-w-sm rounded-lg w-full h-full object-cover" />
                         </div>
                     </div>
 
                     <!-- Card 4 -->
-                    <div class="border border-[#E9E9E9] rounded-lg shadow-sm md:col-span-6 flex  justify-center items-center">
-                        <div >
-                            <img alt="Tailwind CSS hero component" src="assets/img4.png" class="max-w-sm rounded-lg w-full h-full object-cover" />
+                    <div
+                        class="border border-[#E9E9E9] rounded-lg shadow-sm md:col-span-6 flex  justify-center items-center">
+                        <div>
+                            <img alt="Tailwind CSS hero component" src="assets/img4.png"
+                                class="max-w-sm rounded-lg w-full h-full object-cover" />
                             <div>
                                 <h1 class="text-2xl font-bold">Commercial</h1>
                                 <p class="py-2 text-[#494949]">
@@ -297,27 +314,148 @@
                                 </p>
                                 <div class="flex gap-3">
                                     <button class="font-extrabold text-lg">View Details</button>
-                                    <i
-                                        class="fa-solid fa-arrow-right-long bg-[#ABEF5F]  rounded-full -rotate-45 p-1">
+                                    <i class="fa-solid fa-arrow-right-long bg-[#ABEF5F]  rounded-full -rotate-45 p-1">
                                     </i>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- Card 5 -->
-                    <div class="border border-[#E9E9E9] rounded-lg shadow-sm md:col-span-3 flex  justify-center items-center">
+                    <div
+                        class="border border-[#E9E9E9] rounded-lg shadow-sm md:col-span-3 flex  justify-center items-center">
                         <div>
-                            <img alt="Tailwind CSS hero component" src="assets/img5.png" class="max-w-sm rounded-lg w-full h-full object-cover" />
+                            <img alt="Tailwind CSS hero component" src="assets/img5.png"
+                                class="max-w-sm rounded-lg w-full h-full object-cover" />
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Read article and news -->
+        <section class="bg-base-200 ">
+            <div class=" md:container mx-auto px-8 py-8 md:px-16 md:py-16">
+                <!-- content -->
+                <div class="text-center space-y-6">
+                    <div
+                        class="inline-flex justify-center items-center bg-[#ABEF5F] bg-opacity-10 px-3 py-3 rounded-2xl gap-2">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                        <span class="text-[#494949]">Rinterio News</span>
+                    </div>
+                    <h1 class="font-bold text-4xl">Read Our Articles and News</h1>
+                    <p class="font-medium text-[#494949]">The barn house captivates with its blend of rustic charm and
+                        modern sophistication,<br> featuring weathered wood, sleek metal accents.
+                    </p>
+                </div>
+
+                <!-- card container -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+                    <!-- Card 1 -->
+                    <div class="card bg-base-100 shadow-sm py-5">
+                        <figure>
+                            <img src="assets/article1.png" alt="article" />
+                        </figure>
+                        <div class="flex gap-6 pl-5 my-4">
+                            <div class="flex justify-center items-center">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <p class="text-[#494949]">July14, 2024</p>
+                            </div>
+                            <div class="flex justify-center items-center">
+                                <i class="fa-regular fa-circle-user"></i>
+                                <p class="text-[#494949]">By Admin</p>
+                            </div>
+                        </div>
+                        <div class="pl-5 space-y-2">
+                            <h2 class="card-title font-extrabold text-[#494949]">How to choose the furniture right of
+                                your home.</h2>
+                            <p class="text-[#494949]">The barn house captivates with its blend of rustic charm and
+                                modern.</p>
+                            <div class="flex gap-3">
+                                <button class="font-extrabold text-lg">Read More</button>
+                                <i class="fa-solid fa-arrow-right-long bg-[#ABEF5F]  rounded-full -rotate-45 p-1">
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="card bg-base-100 shadow-sm py-5">
+                        <figure>
+                            <img src="assets/article2.png" alt="article" />
+                        </figure>
+                        <div class="flex gap-6 pl-5 my-4">
+                            <div class="flex justify-center items-center">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <p class="text-[#494949]">July14, 2024</p>
+                            </div>
+                            <div class="flex justify-center items-center">
+                                <i class="fa-regular fa-circle-user"></i>
+                                <p class="text-[#494949]">By Admin</p>
+                            </div>
+                        </div>
+                        <div class="pl-5 space-y-2">
+                            <h2 class="card-title font-extrabold text-[#494949]">How to choose the furniture right of
+                                your home.</h2>
+                            <p class="text-[#494949]">The barn house captivates with its blend of rustic charm and
+                                modern.</p>
+                            <div class="flex gap-3">
+                                <button class="font-extrabold text-lg">Read More</button>
+                                <i class="fa-solid fa-arrow-right-long bg-[#ABEF5F]  rounded-full -rotate-45 p-1">
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="card bg-base-100 shadow-sm py-5 ">
+                        <figure>
+                            <img src="assets/article3.png" alt="article" />
+                        </figure>
+                        <div class="flex gap-6 pl-5 my-4">
+                            <div class="flex justify-center items-center">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <p class="text-[#494949]">July14, 2024</p>
+                            </div>
+                            <div class="flex justify-center items-center">
+                                <i class="fa-regular fa-circle-user"></i>
+                                <p class="text-[#494949]">By Admin</p>
+                            </div>
+                        </div>
+                        <div class="pl-5 space-y-2">
+                            <h2 class="card-title font-extrabold text-[#494949]">How to choose the furniture right of
+                                your home.</h2>
+                            <p class="text-[#494949]">The barn house captivates with its blend of rustic charm and
+                                modern.</p>
+                            <div class="flex gap-3">
+                                <button class="font-extrabold text-lg">Read More</button>
+                                <i class="fa-solid fa-arrow-right-long bg-[#ABEF5F]  rounded-full -rotate-45 p-1">
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- footer -->
-    <footer></footer>
+    <footer class="bg-[url('/assets/bg.jpg')] bg-cover bg-no-repeat m-2">
+        <div>
+            <div class=" md:container mx-auto px-8 py-8 md:px-16 md:py-16">
+                <!-- content -->
+                <div class="text-center space-y-6">
+                    <div
+                        class="inline-flex justify-center items-center bg-[#ABEF5F] bg-opacity-10 px-3 py-3 rounded-2xl gap-2">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                        <span class="text-[#494949]">Let’s Connect</span>
+                    </div>
+                    <h1 class="font-bold text-4xl">Let’s Discuss Next Project</h1>
+                    <p class="font-medium text-[#494949]">The barn house captivates with its blend of rustic charm and
+                        modern sophistication,<br> featuring weathered wood, sleek metal accents.
+                    </p>
+                </div>
+            </div>
+    </footer>
 </body>
 
 </html>
