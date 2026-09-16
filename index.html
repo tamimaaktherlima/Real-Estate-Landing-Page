@@ -122,7 +122,6 @@
                             class="fa-solid fa-arrow-right-long bg-black text-white rounded-full -rotate-45 p-1 flex items-center"></i>
                     </span>
                 </button>
-
             </div>
         </div>
     </header>
@@ -441,7 +440,7 @@
     <!-- footer -->
     <footer class="bg-[url('/assets/bg.jpg')] bg-cover bg-no-repeat m-2">
         <div>
-            <div class=" md:container mx-auto px-8 py-8 md:px-16 md:py-16">
+            <div class=" md:container mx-auto px-8 py-8 md:px-16 md:py-16 ">
                 <!-- content -->
                 <div class="text-center space-y-6">
                     <div
@@ -454,7 +453,40 @@
                         modern sophistication,<br> featuring weathered wood, sleek metal accents.
                     </p>
                 </div>
+
+                <!-- input field -->
+                <form action="" class="mx-auto max-w-2xl space-y-4 my-8">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <input type="text" placeholder="First Name*"
+                            class="input rounded-4xl p-5 border-none text-xs " />
+                        <input type="text" placeholder="Last Name*"
+                            class="input rounded-4xl p-5 border-none text-xs " />
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 ">
+                        <input type="text" placeholder="Phone Number*"
+                            class="input rounded-4xl p-5 border-none text-xs " />
+                        <input type="text" placeholder="Email Number*"
+                            class="input rounded-4xl p-5 border-none text-xs " />
+                    </div>
+                    <div>
+                        <textarea class="textarea rounded-4xl p-5 border-none text-xs w-full h-32"
+                            placeholder="Write your message here"></textarea>
+                    </div>
+
+                    <!-- Button -->
+                    <div
+                        class="font-extrabold text-sm text-black bg-[#ABEF5F] bg-opacity-10 rounded-4xl px-3 py-2 gap-3 text-center">
+                        <span>Send Mail</span>
+                        <span>
+                            <i
+                                class="fa-solid fa-arrow-right-long bg-black text-white rounded-full -rotate-45 p-1 flex items-center"></i>
+                        </span>
+                    </div>
+                </form>
             </div>
+        </div>
+        </form>
+        </div>
     </footer>
 </body>
 
